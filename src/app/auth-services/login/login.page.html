@@ -1,0 +1,35 @@
+<!-- CONTENTS -->
+<ion-content>
+  <div class="center">
+    <img src='../../assets/icon.png'>
+    <h4>Chrollo Inventory Manager</h4>
+    <!-- INPUTS -->
+    <ion-item class="ion-margin-top">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input inputmode="email" [(ngModel)]="email" [value]="clearEmail"></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-top">
+      <ion-label position="floating" name="password">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password" [value]="clearPassword"></ion-input>
+    </ion-item>
+    <!-- INPUTS -->
+    <!-- BUTTONS -->
+    <ion-button id="login" expand="block" class="ion-margin-top" (click)="login()">LOGIN</ion-button>
+    <p class="divider">───────────OR────────────</p>
+    <ion-button class="ion-margin-top" expand="block" color="tertiary" (click)="loginWithGoogle()">
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      Sign in with Google
+    </ion-button>
+    <h5 id="register" >New here? <a (click)="goToRegister()">Create an account.</a></h5>
+    <!-- BUTTONS -->
+  </div>
+</ion-content>
+<!-- CONTENTS -->
+
+<!-- FOOTER -->
+<ion-footer>
+  <ion-title class="ion-text-center">
+    <p>©</p>
+  </ion-title>
+</ion-footer>
+<!-- FOOTER -->

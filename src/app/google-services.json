@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301891794260",
+    "project_id": "firstionicapp-26",
+    "storage_bucket": "firstionicapp-26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301891794260:android:5d6e175d7f266189bfc4c1",
+        "android_client_info": {
+          "package_name": "com.first.chrollo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301891794260-joj4aqqouv37d9cinqfdh3u2jpolro3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMy7UW0IsOxJC8NB7kfnhmDRmWeumMae8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301891794260-joj4aqqouv37d9cinqfdh3u2jpolro3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<!-- CONTENTS -->
+<ion-content>
+  <div class="center">
+    <img src='../../assets/icon.png'>
+    <h4>Create chrollo Account</h4>
+    <!-- INPUTS -->
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input inputmode="email" [(ngModel)]="email" [value]="clearEmail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" name="password">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password" [value]="clearPassword"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" name="password">Confirm Password</ion-label>
+      <ion-input type="password" [(ngModel)]="cpassword" [value]="clearCpassword"></ion-input>
+    </ion-item>
+    <!-- INPUTS -->
+    <!-- BUTTONS -->
+    <ion-button expand="block" class="ion-margin-top" (click)="register()">CREATE AN ACCOUNT</ion-button>
+    <h5 id="register" ><a (click)="goToLogin()">Go Back</a></h5>
+    <!-- BUTTONS -->
+  </div>
+</ion-content>
+<!-- CONTENTS -->
+
+<!-- FOOTER -->
+<ion-footer>
+  <ion-title class="ion-text-center">
+    <p>©</p>
+  </ion-title>
+</ion-footer>
+<!-- FOOTER -->
